@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "rollup-test",
+  "description": "",
+  "license": "WTFPL",
+  "devDependencies": {
+    "rollup": "^0.35.10",
+    "rollup-plugin-buble": "^0.13.0",
+    "rollup-plugin-uglify": "^1.0.1",
+    "rollup-watch": "^2.5.0"
+  },
+  "scripts": {
+    "start": "rollup -c -w"
+  }
+}

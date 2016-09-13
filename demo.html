@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<em>Here we go:</em>
+	<script src="bundles/main-rollup.js"></script>
+	<script>
+		(function frame(){
+			window.classyClass.setColor('hsl(' + Math.random() * 360 + ', 50%, 50%)');
+			requestAnimationFrame(frame);
+		})();
+	</script>
+</body>
+</html>
